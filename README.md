@@ -7,3 +7,7 @@ Trabalho de HTML, CSS e JS para a disciplina de Fundamentos da Programação II
   O primeiro formulário não faz nada, ele não tem nenhum servidor relacionado a ele para enviar os dados, servindo apenas para testar o label e algumas simples restrições, de obrigatoriedade de preenchimento de todos os inputs e mínimo de 8 caracteres para a senha.
   O segundo formulário foi planejado com os mesmos recursos, a não ser a parte que ele, por meio do método POST, envia os dados para um servidor de teste; ao fazer isso, você receberá uma página com metadata do envio.
   O terceiro e último formulário possui a mesma funcionalidade dos outros, tirando a parte de enviar os dados para um servidor de teste, mas agora, com uma pseudo-validação dos dados, onde o usuário precisa digitar nos inputs, *admin* e *1234* para obter sucesso no seu login, sendo redirecionado para uma página informando sucesso em tal login; caso os dados enviados sejam diferentes dos citados, o usuário será redirecionado para uma página informando que o login não foi bem sucedido.
+
+
+  * VISÃO GERAL DO PROJETO:
+    Sendo bem honesto, não senti muitas dificuldades na execução de tal atividade, pois já havia adquirido conhecimento acerca de HTML e CSS; Porém, admito que na parte de formulário, em especial na de redirecionar o usuário para uma outra página, foi necessário uma pesquisada sobre o assunto, visto que eu já sabia criar formulários e como eles funcionavam, não obstante, a mini-validação foi o momento mais desafiador do trabalho.
