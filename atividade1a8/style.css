@@ -3,31 +3,59 @@
 body {
     font-family: 'Times New Roman', Times, serif;
 }
-img {
+ #container img {
     display: block;
     margin: auto;
     width: 300px;
 }
 
-h1,h2 {
+#container h1,h2 {
     text-align: center;
 }
 
-p {
+#container  p {
     text-align: center;
     font-size: 1.4em;
 }
 
-div {
+#container div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-li {
+ #container li {
     font-size: 1.4em;
 }
 
-a {
+#container a {
     text-align: left;
+}
+
+ #container .linksImportantes {
+    display: block;
+    text-align: center;
+}
+
+ #container figcaption,footer {
+    text-align: center;
+    background-color: #222;
+  color: #fff;
+}
+
+ #container table {
+    position: relative;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+
+#container caption {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+ #container td,th {
+    text-align: center;
+    border: 1px solid black;
 }

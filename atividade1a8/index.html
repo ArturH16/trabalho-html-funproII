@@ -7,29 +7,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Minha Primeira Homepage</h1>
-    <img src="" alt="">
-    <p><span id="boas-vindas"></span>,  essa é a primeira atividade. Ela consiste basicamente na criação da esturutra HTML básica de uma página web e na utilização de tags para a marcação de conteúdo. Para incrementar, decide utilizar um pouco de JavaScript para personalizar a mensagem a fim de deixar o programa mais dinâmico.</p>
+    <div id="container">
+        <h1 id="topo">Minha Primeira Homepage</h1>
+        <img src="" alt="">
+        <p><span id="boas-vindas"></span>,  essa é a primeira atividade. Ela consiste basicamente na criação da esturutra HTML básica de uma página web e na utilização de tags para a marcação de conteúdo. Para incrementar, decide utilizar um pouco de JavaScript para personalizar a mensagem a fim de deixar o programa mais dinâmico.</p>
+        <section id="sobreMim">
+            <h2>Sobre mim</h2>
+            <p>Particulamente, eu gosto bastante de escutar músicas, e elas me ajudam muito em diversas finalidades: quando estou em momentos mais reflexivos acercas de certos acontecimentos em mimha vida, costumo ouvir rocks clássicos, como <em>Dust in the Wind</em>, <em>Stairway to the Heaven</em> e <em>Estranged</em>; não sei elucidar exatamente o que ocorre, mas tudo nessas músicas, o instumental e a letra me ajudam a refletir sobre situações em que estou passando: em momentos em que estou precisando daquele gás para enfrentar as batalhas e lutas do dia a dia, Hard Rock é o meu melhor companheiro, com músicas como <em>No Easy Way Out</em>,<em>Dirty Diana</em> e  <em>Rock You Like a Hurricane</em>. Até por ter um apego tão grande por essa belíssima arte (considero a melhor criada pela humanidade), que um dia, quando eu estiver mais tranquilo de preocupações na minha vida, queria aprender a tocar algum instrumento, em especial violão ou piano.</p>
+            <p> Saindo da esfera musical, também curto bastante treinar musculação e jogar algum jogo eletrônico no meu tempo livre.</p>
+        </section>
+        <hr>
+        <section id="projetos">
+            <h2 >Projetos</h2>
+            <div>
+            
+                <ul>
+                    <li><a href="arturh16.github.io/projeto-portfolio/index.html"  target="_blank">Projeto Portfólio</a></li>
+                    <li><a href="arturh16.github.io/projeto-android/index.html" target="_blank">Projeto Android</a></li>
+                    <li><a href="arturh16.github.io/projeto-login/index.html" target="_blank">Projeto Login</a></li>
+                </ul>
+            </div>
+            
+        </section>
+        <h2>Links importantes</h2>
+        
+        <a href="#topo" class="linksImportantes">Clique aqui para retornar ao topo da página</a>
+        <a href="arquivos/1932686-trabalho_HTML2025-2 (1).pdf"
+        download="arquivos/1932686-trabalho_HTML2025-2 (1).pdf" type="application/pdf" class="linksImportantes">Clique aqui para baixar um pdf</a>
+        
+        
+        <h2>Imagem de Perfil</h2>
+        <img src="arquivos/artur-perfil.jpg" alt="Imagem de perfil Artur Holanda" width="100">
+        
+        <figure>
+        <img src="https://uploads.metroimg.com/wp-content/uploads/2018/04/27161943/Guns-N-Roses-3.jpg" alt="Imagem banda Guns-N-Roses">
+        <figcaption>Banda Mais Perigosa do Mundo: Guns N' Roses</figcaption>
+        </figure>
+        
+        
+        <h2>Tabela de Contatos</h2>
+        
+        <div>
+        <table>
+            <caption>Informações de Contato</caption>
+            <thead> <th>Nome</th> <th>Email</th> <th>Telefone</th></thead>
+            <tbody>
+                <tr><td>Artur</td>
+                <td>holandaartur162@gmail.com</td>
+            <td>(11) 98549-43993</td></tr>
+            <tr><td>Pedro Paulo</td> <td>pedropaulo@gmail.com</td> <td>(85)99473-9862</td></tr>
+        
+            </tbody>
+        </table>
+        </div>
 
-    <h2>Sobre mim</h2>
-    <p>Particulamente, eu gosto bastante de escutar músicas, e elas me ajudam muito em diversas finalidades: quando estou em momentos mais reflexivos acercas de certos acontecimentos em mimha vida, costumo ouvir rocks clássicos, como <em>Dust in the Wind</em>, <em>Stairway to the Heaven</em> e <em>Estranged</em>; não sei elucidar exatamente o que ocorre, mas tudo nessas músicas, o instumental e a letra me ajudam a refletir sobre situações em que estou passando: em momentos em que estou precisando daquele gás para enfrentar as batalhas e lutas do dia a dia, Hard Rock é o meu melhor companheiro, com músicas como <em>No Easy Way Out</em>,<em>Dirty Diana</em> e  <em>Rock You Like a Hurricane</em>. Até por ter um apego tão grande por essa belíssima arte (considero a melhor criada pela humanidade), que um dia, quando eu estiver mais tranquilo de preocupações na minha vida, queria aprender a tocar algum instrumento, em especial violão ou piano.</p>
-
-    <p> Saindo da esfera musical, também curto bastante treinar musculação e jogar algum jogo eletrônico no meu tempo livre.</p>
-
-    <hr>
+        <footer>Artur Holanda 2008</footer>
+    </div>
 
 
-    <h2>Projetos</h2>
-<div>
-    
-        <ul>
-            <li><a href="arturh16.github.io/projeto-portfolio/index.html"  target="_blank">Projeto Portfólio</a></li>
-            <li><a href="arturh16.github.io/projeto-android/index.html" target="_blank">Projeto Android</a></li>
-            <li><a href="arturh16.github.io/projeto-login/index.html" target="_blank">Projeto Login</a></li>
-        </ul>
-</div>
 
-    <script src="script.js"></script>
+
+
+<script src="script.js"></script>
     
 </body>
 </html>
